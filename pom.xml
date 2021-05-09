@@ -37,6 +37,12 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <!-- 项目依赖不传递true ：不传递，此项目打包作为依赖在其他项目不会有此依赖 -->
+            <optional>true</optional>
+        </dependency>
     </dependencies>
 
     <build>

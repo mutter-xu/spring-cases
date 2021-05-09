@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://127.0.0.1:3306/kongtan
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+propertySources: test
